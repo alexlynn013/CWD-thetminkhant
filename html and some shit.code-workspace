@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "C:/Users/USER/OneDrive/Desktop/CWD-B2"
+		},
+		{
+			"path": "../../IT and shit/VScode/bootstrap-5.3.0-alpha1-examples"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html and some shit"
+	}
+}

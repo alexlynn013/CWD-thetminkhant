@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color:black;
+    color: white;
+}
+
+.first{
+    background-image: url("./final-project-img/bg.png") !important;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    align-items: center;
+    width: 100%;
+    background: transparent;
+    transform: translateY(-20px);
+}
+
+.navlist{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.navlist a{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+.btn{
+    padding:7px 27px 7px 27px  ;
+    background-color: rgb(255, 255, 255) ;
+    border: 0pt;
+    color: rgb(0, 0, 0);
+}
+
+.btn:hover{
+    background-color:transparent;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    box-shadow: 6px 6px 1px rgb(0, 0, 0, 0.1);
+    transition:0.5s ;
+}
+
+.second-half{
+    background-color: black;
+    height: 1080px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 110px 0;
+
+}
+
+.abtRaymond{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.swiper{
+    width: 100%;
+    height: 400px;
+}
+
+swiper-slide img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+}
+
+.one{
+    background-color: black;
+    color: #8D93AB;
+    display: flex;
+    justify-content: space-evenly;
+    height: 35px;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.one span,.two span{
+    width: 220px;
+    text-align: center;
+}
+
+.two{
+    background-color: white;
+    color: #8D93AB;
+    display: flex;
+    justify-content: space-evenly;
+    height: 35px;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.one:hover{
+    color: white;
+}
+
+.two:hover{
+    color: black;
+}
+
+.merchbtn{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 30px;
+    height: 30px;
+}
+
+.merchbtn:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition:0.5s ;
+    border: 1pt solid white;
+}
+
+
+/* .betteremail{
+    border: 2px #000000 solid;
+    background-color: white;
+}
+
+.emailbar input:focus{
+    outline: none;
+}
+
+.emailbar input{
+    border: 0;
+    background-color: transparent;
+    height: 35px;
+    width: 200px;
+    font-size: 1.1rem;
+    margin-left: 40px;
+}
+
+::placeholder{
+    color: #999999;
+}
+
+.emailbar .btn2{
+    border: 1px solid black;
+    background-color: #000000;
+    height: 32px;
+    width: 80px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #ffffff;
+} */
